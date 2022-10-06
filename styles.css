@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #f9fbfcee;
+}
+
+.info{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.info-text{
+    padding-left: 40px;
+}
+
+.info-text span {
+    font-style: italic;
+    font-weight: bold;
+    color: #8f9188;
+}
+
+.info-text h4 {
+    padding-top: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin: 20px;
+}
+
+.bg-yellow {
+    background: #f7fad3;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 25px 45px;
+}
+
+.bg-red {
+    background: #fcc5c5;
+    max-width: 750px;
+    text-align: left;
+}
+
+.bg-red h2 {
+    padding-bottom: 10px;
+    background: #d6b7b7;
+    border-radius: 20px;
+    padding-left: 15px;
+    width: 170px;
+}
+
+.connection {
+    color: #4682B4;
+    background: #f1f1f1;
+    max-width: 550px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.connection h2{
+    text-align: center;
+}
+
+.box label{
+    display: block;
+    font-size: 14px;
+}
+
+.box input, textarea{
+    cursor: text;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    outline: none;
+    color: #000;
+    font-family: inherit;
+    padding: 15px 0 10px;
+}
+
+.box-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.box-row .box{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.box-row .box:last-child{
+    margin-right: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+    font-family: inherit;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+@media(max-width: 650px){
+    .info{
+        margin: auto;
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+
+    .info-text h1{
+        padding: 10px;
+    }
+
+    .box-row{
+        display: block;
+    }
+
+    .box-row .box{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar{
+        padding-right: 10px;
+    }
+
+}
+
+.avatar {
+    max-width: 250px;
+    box-shadow: 8px 8px 20px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    
+}
+
+a {
+    color: #4dbe8f;
+    text-decoration: none;
+    /* transition: all .4s; */
+}
+
+a:hover {
+    color: #fcc5c5;
+    /* font-size: 1.2rem; */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #6f00ff;
+}
+
+.btn {
+    color: #e0dfdf;
+    background: #4682B4;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-family: inherit;
+    display: flex;
+}
+
+.btn:hover {
+    /* background: #35648a; */
+    cursor: pointer;
+    opacity: .7;
+}
+
+.ol,
+.table {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.ol li {
+    padding: 7px 0px 7px 10px;
+    background: #e6f3ce;
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 3px;
+    color: #494949;
+}
+
+.ol li:nth-child(2),
+.ol li:nth-child(4) {
+    background: #ebffc5;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td,
+th {
+    padding-bottom: 10px;
+}
+
+.table tbody:hover {
+    background: #d6b7b7;
+    font-size:  18px;
+    transition: all 0.5s;
+}
+
+.navbar {
+    background: #facfac;
+    font-family: inherit;
+    max-width: 30%;
+    margin: 0px 0px 0px auto;
+    border-radius: 500px;
+    max-height: 900px;
+    text-align: center;
+    
+}
+
+.navbar ul{
+    position: static;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0px 30px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.navbar :hover {
+    background: #fcb0d3;
+    border-radius: 500px;
+    max-width: 100%;
+    opacity: .7;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0px;
+}
+
+.navbar a {
+    color: #6f00ff;
+}
